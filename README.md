@@ -6,7 +6,7 @@
 ### Particle Filter SLAM
 Simultaneous localization and mapping (SLAM) based on [particle filter](https://en.wikipedia.org/wiki/Particle_filter#:~:text=Particle%20filtering%20uses%20a%20set,can%20take%20any%20form%20required.) using [odometry](https://en.wikipedia.org/wiki/Odometry), 2-D [LiDAR](https://en.wikipedia.org/wiki/Lidar) scans, and [stereo camera](https://en.wikipedia.org/wiki/Stereo_camera) measurements from an autonomous car. Odometry and LiDAR measurements are used to localize the robot and 2-D [occupancy grid map](https://en.wikipedia.org/wiki/Occupancy_grid_mapping) of the environment is also build.
 
-<img src="https://user-images.githubusercontent.com/15256774/111972686-110afd00-8b41-11eb-8a75-a6983ac4e1c5.gif" width="400" height="400"/><img src="https://user-images.githubusercontent.com/15256774/111972674-0cdedf80-8b41-11eb-8e65-af157c54598b.gif" width="400" height="400"/>
+<img src="https://user-images.githubusercontent.com/15256774/111973305-b32ae500-8b41-11eb-88eb-17f68ab933e9.gif" width="400" height="400"/><img src="https://user-images.githubusercontent.com/15256774/111973334-baea8980-8b41-11eb-9c7b-ba07595593a4.gif" width="400" height="400"/>
 - \[left\] Real images over time
 - \[right\] Estimated trajectory (green), particles (red), estimated empty space (white), and estimated objects (grey) over time by particle filter SLAM
 
