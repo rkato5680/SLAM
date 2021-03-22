@@ -1,7 +1,7 @@
 # SLAM
 
 ### Description
-[SLAM(Simultaneous localization and mapping)](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) from a motorcar implemented in python.
+[SLAM(Simultaneous localization and mapping)](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) implemented in python.
 
 ### Particle Filter SLAM
 Simultaneous localization and mapping (SLAM) based on [particle filter](https://en.wikipedia.org/wiki/Particle_filter#:~:text=Particle%20filtering%20uses%20a%20set,can%20take%20any%20form%20required.) using [odometry](https://en.wikipedia.org/wiki/Odometry), 2-D [LiDAR](https://en.wikipedia.org/wiki/Lidar) scans, and [stereo camera](https://en.wikipedia.org/wiki/Stereo_camera) measurements from an autonomous car. Odometry and LiDAR measurements are used to localize the robot and 2-D [occupancy grid map](https://en.wikipedia.org/wiki/Occupancy_grid_mapping) of the environment is also build.
