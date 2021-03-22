@@ -1,7 +1,7 @@
 # SLAM
 
 ### Description
-SLAM(Simultaneous localization and mapping) form a motorcar implemented in python
+SLAM(Simultaneous localization and mapping) from a motorcar implemented in python.
 
 ### Particle Filter SLAM
 
